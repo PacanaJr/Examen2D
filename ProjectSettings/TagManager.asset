@@ -8,6 +8,8 @@ TagManager:
   - Castillo
   - Moneda
   - SueloMuerte
+  - Seta
+  - Jugador
   layers:
   - Default
   - TransparentFX
@@ -15,7 +17,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Suelo
   - 
   - 
   - 

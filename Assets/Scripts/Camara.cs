@@ -2,15 +2,10 @@ using UnityEngine;
 
 public class Camara : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public Transform jugador;
 
-    // Update is called once per frame
-    void Update()
+    private void LateUpdate()
     {
-        
+        transform.position = new Vector3(jugador.position.x, jugador.position.y, transform.position.z);
     }
 }
